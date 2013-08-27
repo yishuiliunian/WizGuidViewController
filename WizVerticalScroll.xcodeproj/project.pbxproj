@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAF7F1D917CC9BD500821EF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF7F1D817CC9BD500821EF5 /* UIKit.framework */; };
+		BAF7F1DB17CC9BD500821EF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF7F1DA17CC9BD500821EF5 /* Foundation.framework */; };
+		BAF7F1DD17CC9BD500821EF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF7F1DC17CC9BD500821EF5 /* CoreGraphics.framework */; };
+		BAF7F1E317CC9BD500821EF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAF7F1E117CC9BD500821EF5 /* InfoPlist.strings */; };
+		BAF7F1E517CC9BD500821EF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF7F1E417CC9BD500821EF5 /* main.m */; };
+		BAF7F1E917CC9BD500821EF5 /* WizVerticalScrollAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF7F1E817CC9BD500821EF5 /* WizVerticalScrollAppDelegate.m */; };
+		BAF7F1EB17CC9BD500821EF5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BAF7F1EA17CC9BD500821EF5 /* Default.png */; };
+		BAF7F1ED17CC9BD500821EF5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAF7F1EC17CC9BD500821EF5 /* Default@2x.png */; };
+		BAF7F1EF17CC9BD500821EF5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAF7F1EE17CC9BD500821EF5 /* Default-568h@2x.png */; };
+		BAF7F1F217CC9BD500821EF5 /* WizVerticalScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF7F1F117CC9BD500821EF5 /* WizVerticalScrollViewController.m */; };
+		BAF7F1F517CC9BD500821EF5 /* WizVerticalScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAF7F1F317CC9BD500821EF5 /* WizVerticalScrollViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BAF7F1D517CC9BD500821EF5 /* WizVerticalScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WizVerticalScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF7F1D817CC9BD500821EF5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BAF7F1DA17CC9BD500821EF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BAF7F1DC17CC9BD500821EF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BAF7F1E017CC9BD500821EF5 /* WizVerticalScroll-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WizVerticalScroll-Info.plist"; sourceTree = "<group>"; };
+		BAF7F1E217CC9BD500821EF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BAF7F1E417CC9BD500821EF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAF7F1E617CC9BD500821EF5 /* WizVerticalScroll-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WizVerticalScroll-Prefix.pch"; sourceTree = "<group>"; };
+		BAF7F1E717CC9BD500821EF5 /* WizVerticalScrollAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WizVerticalScrollAppDelegate.h; sourceTree = "<group>"; };
+		BAF7F1E817CC9BD500821EF5 /* WizVerticalScrollAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WizVerticalScrollAppDelegate.m; sourceTree = "<group>"; };
+		BAF7F1EA17CC9BD500821EF5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BAF7F1EC17CC9BD500821EF5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BAF7F1EE17CC9BD500821EF5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BAF7F1F017CC9BD500821EF5 /* WizVerticalScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WizVerticalScrollViewController.h; sourceTree = "<group>"; };
+		BAF7F1F117CC9BD500821EF5 /* WizVerticalScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WizVerticalScrollViewController.m; sourceTree = "<group>"; };
+		BAF7F1F417CC9BD500821EF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WizVerticalScrollViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAF7F1D217CC9BD500821EF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF7F1D917CC9BD500821EF5 /* UIKit.framework in Frameworks */,
+				BAF7F1DB17CC9BD500821EF5 /* Foundation.framework in Frameworks */,
+				BAF7F1DD17CC9BD500821EF5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAF7F1CC17CC9BD500821EF5 = {
+			isa = PBXGroup;
+			children = (
+				BAF7F1DE17CC9BD500821EF5 /* WizVerticalScroll */,
+				BAF7F1D717CC9BD500821EF5 /* Frameworks */,
+				BAF7F1D617CC9BD500821EF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAF7F1D617CC9BD500821EF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAF7F1D517CC9BD500821EF5 /* WizVerticalScroll.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAF7F1D717CC9BD500821EF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAF7F1D817CC9BD500821EF5 /* UIKit.framework */,
+				BAF7F1DA17CC9BD500821EF5 /* Foundation.framework */,
+				BAF7F1DC17CC9BD500821EF5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAF7F1DE17CC9BD500821EF5 /* WizVerticalScroll */ = {
+			isa = PBXGroup;
+			children = (
+				BAF7F1E717CC9BD500821EF5 /* WizVerticalScrollAppDelegate.h */,
+				BAF7F1E817CC9BD500821EF5 /* WizVerticalScrollAppDelegate.m */,
+				BAF7F1F017CC9BD500821EF5 /* WizVerticalScrollViewController.h */,
+				BAF7F1F117CC9BD500821EF5 /* WizVerticalScrollViewController.m */,
+				BAF7F1F317CC9BD500821EF5 /* WizVerticalScrollViewController.xib */,
+				BAF7F1DF17CC9BD500821EF5 /* Supporting Files */,
+			);
+			path = WizVerticalScroll;
+			sourceTree = "<group>";
+		};
+		BAF7F1DF17CC9BD500821EF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAF7F1E017CC9BD500821EF5 /* WizVerticalScroll-Info.plist */,
+				BAF7F1E117CC9BD500821EF5 /* InfoPlist.strings */,
+				BAF7F1E417CC9BD500821EF5 /* main.m */,
+				BAF7F1E617CC9BD500821EF5 /* WizVerticalScroll-Prefix.pch */,
+				BAF7F1EA17CC9BD500821EF5 /* Default.png */,
+				BAF7F1EC17CC9BD500821EF5 /* Default@2x.png */,
+				BAF7F1EE17CC9BD500821EF5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAF7F1D417CC9BD500821EF5 /* WizVerticalScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAF7F1F817CC9BD500821EF5 /* Build configuration list for PBXNativeTarget "WizVerticalScroll" */;
+			buildPhases = (
+				BAF7F1D117CC9BD500821EF5 /* Sources */,
+				BAF7F1D217CC9BD500821EF5 /* Frameworks */,
+				BAF7F1D317CC9BD500821EF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WizVerticalScroll;
+			productName = WizVerticalScroll;
+			productReference = BAF7F1D517CC9BD500821EF5 /* WizVerticalScroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAF7F1CD17CC9BD500821EF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WizVerticalScroll;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = wzz;
+			};
+			buildConfigurationList = BAF7F1D017CC9BD500821EF5 /* Build configuration list for PBXProject "WizVerticalScroll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BAF7F1CC17CC9BD500821EF5;
+			productRefGroup = BAF7F1D617CC9BD500821EF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAF7F1D417CC9BD500821EF5 /* WizVerticalScroll */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAF7F1D317CC9BD500821EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF7F1E317CC9BD500821EF5 /* InfoPlist.strings in Resources */,
+				BAF7F1EB17CC9BD500821EF5 /* Default.png in Resources */,
+				BAF7F1ED17CC9BD500821EF5 /* Default@2x.png in Resources */,
+				BAF7F1EF17CC9BD500821EF5 /* Default-568h@2x.png in Resources */,
+				BAF7F1F517CC9BD500821EF5 /* WizVerticalScrollViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAF7F1D117CC9BD500821EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF7F1E517CC9BD500821EF5 /* main.m in Sources */,
+				BAF7F1E917CC9BD500821EF5 /* WizVerticalScrollAppDelegate.m in Sources */,
+				BAF7F1F217CC9BD500821EF5 /* WizVerticalScrollViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BAF7F1E117CC9BD500821EF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAF7F1E217CC9BD500821EF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BAF7F1F317CC9BD500821EF5 /* WizVerticalScrollViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAF7F1F417CC9BD500821EF5 /* en */,
+			);
+			name = WizVerticalScrollViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAF7F1F617CC9BD500821EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BAF7F1F717CC9BD500821EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAF7F1F917CC9BD500821EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WizVerticalScroll/WizVerticalScroll-Prefix.pch";
+				INFOPLIST_FILE = "WizVerticalScroll/WizVerticalScroll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BAF7F1FA17CC9BD500821EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WizVerticalScroll/WizVerticalScroll-Prefix.pch";
+				INFOPLIST_FILE = "WizVerticalScroll/WizVerticalScroll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAF7F1D017CC9BD500821EF5 /* Build configuration list for PBXProject "WizVerticalScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF7F1F617CC9BD500821EF5 /* Debug */,
+				BAF7F1F717CC9BD500821EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAF7F1F817CC9BD500821EF5 /* Build configuration list for PBXNativeTarget "WizVerticalScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF7F1F917CC9BD500821EF5 /* Debug */,
+				BAF7F1FA17CC9BD500821EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAF7F1CD17CC9BD500821EF5 /* Project object */;
+}
