@@ -16,7 +16,10 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[WizVerticalScrollViewController alloc] initWithNibName:@"WizVerticalScrollViewController" bundle:nil];
+    NSString* path = [[NSBundle mainBundle] pathForResource:@"WizVerticalScrollViewData" ofType:@"plist"];
+    NSDictionary* dic = [NSDictionary dictionaryWithContentsOfFile:path];
+    NSArray* imageNamesArray = [dic objectForKey:@"backImages"];
+    self.viewController = [[WizVerticalScrollViewController alloc] initWithImageNames:imageNamesArray];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87023D9D17D85C500030CF23 /* cang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87023D9C17D85C500030CF23 /* cang.jpg */; };
+		BA2E442B17D033BD00F70996 /* WizVerticalScrollViewData.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA2E442A17D033BD00F70996 /* WizVerticalScrollViewData.plist */; };
 		BAF7F1D917CC9BD500821EF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF7F1D817CC9BD500821EF5 /* UIKit.framework */; };
 		BAF7F1DB17CC9BD500821EF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF7F1DA17CC9BD500821EF5 /* Foundation.framework */; };
 		BAF7F1DD17CC9BD500821EF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF7F1DC17CC9BD500821EF5 /* CoreGraphics.framework */; };
@@ -17,10 +19,18 @@
 		BAF7F1ED17CC9BD500821EF5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAF7F1EC17CC9BD500821EF5 /* Default@2x.png */; };
 		BAF7F1EF17CC9BD500821EF5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAF7F1EE17CC9BD500821EF5 /* Default-568h@2x.png */; };
 		BAF7F1F217CC9BD500821EF5 /* WizVerticalScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF7F1F117CC9BD500821EF5 /* WizVerticalScrollViewController.m */; };
-		BAF7F1F517CC9BD500821EF5 /* WizVerticalScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAF7F1F317CC9BD500821EF5 /* WizVerticalScrollViewController.xib */; };
+		BAF7F1FD17CC9C4300821EF5 /* WizVerticalScrollView.mm in Sources */ = {isa = PBXBuildFile; fileRef = BAF7F1FC17CC9C4200821EF5 /* WizVerticalScrollView.mm */; };
+		BAF7F20417CCA32D00821EF5 /* 001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF7F1FF17CCA32D00821EF5 /* 001.jpg */; };
+		BAF7F20517CCA32D00821EF5 /* 002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF7F20017CCA32D00821EF5 /* 002.jpg */; };
+		BAF7F20617CCA32D00821EF5 /* 003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF7F20117CCA32D00821EF5 /* 003.jpg */; };
+		BAF7F20717CCA32D00821EF5 /* 004.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF7F20217CCA32D00821EF5 /* 004.jpg */; };
+		BAF7F20817CCA32D00821EF5 /* 005.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF7F20317CCA32D00821EF5 /* 005.jpg */; };
+		BAF8A36117CEEC0B00F935A2 /* WizSingleMoveView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF8A36017CEEC0B00F935A2 /* WizSingleMoveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		87023D9C17D85C500030CF23 /* cang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cang.jpg; sourceTree = "<group>"; };
+		BA2E442A17D033BD00F70996 /* WizVerticalScrollViewData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WizVerticalScrollViewData.plist; sourceTree = "<group>"; };
 		BAF7F1D517CC9BD500821EF5 /* WizVerticalScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WizVerticalScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF7F1D817CC9BD500821EF5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BAF7F1DA17CC9BD500821EF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,7 +46,15 @@
 		BAF7F1EE17CC9BD500821EF5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		BAF7F1F017CC9BD500821EF5 /* WizVerticalScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WizVerticalScrollViewController.h; sourceTree = "<group>"; };
 		BAF7F1F117CC9BD500821EF5 /* WizVerticalScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WizVerticalScrollViewController.m; sourceTree = "<group>"; };
-		BAF7F1F417CC9BD500821EF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WizVerticalScrollViewController.xib; sourceTree = "<group>"; };
+		BAF7F1FB17CC9C4200821EF5 /* WizVerticalScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WizVerticalScrollView.h; sourceTree = "<group>"; };
+		BAF7F1FC17CC9C4200821EF5 /* WizVerticalScrollView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WizVerticalScrollView.mm; sourceTree = "<group>"; };
+		BAF7F1FF17CCA32D00821EF5 /* 001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 001.jpg; sourceTree = "<group>"; };
+		BAF7F20017CCA32D00821EF5 /* 002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 002.jpg; sourceTree = "<group>"; };
+		BAF7F20117CCA32D00821EF5 /* 003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 003.jpg; sourceTree = "<group>"; };
+		BAF7F20217CCA32D00821EF5 /* 004.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 004.jpg; sourceTree = "<group>"; };
+		BAF7F20317CCA32D00821EF5 /* 005.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 005.jpg; sourceTree = "<group>"; };
+		BAF8A35F17CEEC0B00F935A2 /* WizSingleMoveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WizSingleMoveView.h; sourceTree = "<group>"; };
+		BAF8A36017CEEC0B00F935A2 /* WizSingleMoveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WizSingleMoveView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +105,12 @@
 				BAF7F1E817CC9BD500821EF5 /* WizVerticalScrollAppDelegate.m */,
 				BAF7F1F017CC9BD500821EF5 /* WizVerticalScrollViewController.h */,
 				BAF7F1F117CC9BD500821EF5 /* WizVerticalScrollViewController.m */,
-				BAF7F1F317CC9BD500821EF5 /* WizVerticalScrollViewController.xib */,
+				87023D9C17D85C500030CF23 /* cang.jpg */,
+				BAF7F1FB17CC9C4200821EF5 /* WizVerticalScrollView.h */,
+				BAF7F1FC17CC9C4200821EF5 /* WizVerticalScrollView.mm */,
+				BAF8A35F17CEEC0B00F935A2 /* WizSingleMoveView.h */,
+				BAF8A36017CEEC0B00F935A2 /* WizSingleMoveView.m */,
+				BAF7F1FE17CCA1FB00821EF5 /* pictures */,
 				BAF7F1DF17CC9BD500821EF5 /* Supporting Files */,
 			);
 			path = WizVerticalScroll;
@@ -103,8 +126,21 @@
 				BAF7F1EA17CC9BD500821EF5 /* Default.png */,
 				BAF7F1EC17CC9BD500821EF5 /* Default@2x.png */,
 				BAF7F1EE17CC9BD500821EF5 /* Default-568h@2x.png */,
+				BA2E442A17D033BD00F70996 /* WizVerticalScrollViewData.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAF7F1FE17CCA1FB00821EF5 /* pictures */ = {
+			isa = PBXGroup;
+			children = (
+				BAF7F1FF17CCA32D00821EF5 /* 001.jpg */,
+				BAF7F20017CCA32D00821EF5 /* 002.jpg */,
+				BAF7F20117CCA32D00821EF5 /* 003.jpg */,
+				BAF7F20217CCA32D00821EF5 /* 004.jpg */,
+				BAF7F20317CCA32D00821EF5 /* 005.jpg */,
+			);
+			path = pictures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +199,13 @@
 				BAF7F1EB17CC9BD500821EF5 /* Default.png in Resources */,
 				BAF7F1ED17CC9BD500821EF5 /* Default@2x.png in Resources */,
 				BAF7F1EF17CC9BD500821EF5 /* Default-568h@2x.png in Resources */,
-				BAF7F1F517CC9BD500821EF5 /* WizVerticalScrollViewController.xib in Resources */,
+				BAF7F20417CCA32D00821EF5 /* 001.jpg in Resources */,
+				BAF7F20517CCA32D00821EF5 /* 002.jpg in Resources */,
+				BAF7F20617CCA32D00821EF5 /* 003.jpg in Resources */,
+				BAF7F20717CCA32D00821EF5 /* 004.jpg in Resources */,
+				BAF7F20817CCA32D00821EF5 /* 005.jpg in Resources */,
+				87023D9D17D85C500030CF23 /* cang.jpg in Resources */,
+				BA2E442B17D033BD00F70996 /* WizVerticalScrollViewData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +219,8 @@
 				BAF7F1E517CC9BD500821EF5 /* main.m in Sources */,
 				BAF7F1E917CC9BD500821EF5 /* WizVerticalScrollAppDelegate.m in Sources */,
 				BAF7F1F217CC9BD500821EF5 /* WizVerticalScrollViewController.m in Sources */,
+				BAF7F1FD17CC9C4300821EF5 /* WizVerticalScrollView.mm in Sources */,
+				BAF8A36117CEEC0B00F935A2 /* WizSingleMoveView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +233,6 @@
 				BAF7F1E217CC9BD500821EF5 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		BAF7F1F317CC9BD500821EF5 /* WizVerticalScrollViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BAF7F1F417CC9BD500821EF5 /* en */,
-			);
-			name = WizVerticalScrollViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -264,6 +300,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WizVerticalScroll/WizVerticalScroll-Prefix.pch";
 				INFOPLIST_FILE = "WizVerticalScroll/WizVerticalScroll-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,6 +312,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WizVerticalScroll/WizVerticalScroll-Prefix.pch";
 				INFOPLIST_FILE = "WizVerticalScroll/WizVerticalScroll-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -299,6 +337,7 @@
 				BAF7F1FA17CC9BD500821EF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

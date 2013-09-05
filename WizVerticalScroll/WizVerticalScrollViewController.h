@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "WizVerticalScrollView.h"
 @interface WizVerticalScrollViewController : UIViewController
-
+@property (nonatomic, strong) WizVerticalScrollView* vScrollView;
+- (id)initWithImageNames:(NSArray*)imageNames;
 @end

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>moveViews</key>
+	<array>
+		<dict>
+			<key>size</key>
+			<string>{30,30}</string>
+			<key>startPoint</key>
+			<string>{10,10}</string>
+			<key>endPoint</key>
+			<string>{10,10}</string>
+		</dict>
+		<dict>
+			<key>size</key>
+			<string>{30,30}</string>
+			<key>startPoint</key>
+			<string>{80,10}</string>
+			<key>endPoint</key>
+			<string>{90,10}</string>
+		</dict>
+	</array>
+	<key>backImages</key>
+	<array>
+		<string>001.jpg</string>
+		<string>002.jpg</string>
+		<string>003.jpg</string>
+		<string>004.jpg</string>
+		<string>005.jpg</string>
+	</array>
+</dict>
+</plist>
